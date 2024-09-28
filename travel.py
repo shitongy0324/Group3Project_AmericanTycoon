@@ -22,6 +22,8 @@ def get_coordinate(ident):
 def get_distance(coordinate1, coordinate2):
     return geopy.distance.distance(coordinate1, coordinate2)
 
+## Calculate the travelling time: 1 hour per 500 km
+
 
 
 
