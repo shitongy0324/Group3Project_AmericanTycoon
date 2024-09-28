@@ -3,11 +3,10 @@
 import title
 
 GAME_TARGET = 1_000_000
-TIME_LIMIT = 15 # days
 
 player_name = title.get_player_name()
 
-# Get current_day of the player from the database, if current_day > TIME_LIMIT => Game Over! => Back to title?
+# Get time_left of the player from the database, if time_left <= 0 => Game Over! => Back to title?
 
 # Get current_funds of the player from the database, if current_funds > GAME_TARGET => Congratulations! => Thank you for playing?
 
