@@ -19,8 +19,8 @@ player_name = title.get_player_name()
 # Ask the player for command
  # 1. Visit local store
     # - 1. Check the goods list of the local store
-        # - 1. Buy something => Update the inventory
-        # - 2. Sell something => update the inventory
+        # - 1. Buy something => Update the inventory and current_money
+        # - 2. Sell something => update the inventory and current_money
         # - 3. Back
     # - 2. Back
  # 2. Move to another airport
