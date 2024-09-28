@@ -17,11 +17,12 @@ player_name = title.get_player_name()
 # Get the information of the player from database and display it.
 
 # Ask the player for command
- # 1. Check goods list of local store
-    # - 1. Display the goods list of the local store
-    # - 2. Buy something => Update the inventory
-    # - 3. Sell something => update the inventory
-    # - 4. Back
+ # 1. Visit local store
+    # - 1. Check the goods list of the local store
+        # - 1. Buy something => Update the inventory
+        # - 2. Sell something => update the inventory
+        # - 3. Back
+    # - 2. Back
  # 2. Move to another airport
     # - 1. List the airports table
             # -- 1. Input the airport_ident
