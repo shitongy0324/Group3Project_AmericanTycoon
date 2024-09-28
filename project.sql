@@ -76,7 +76,7 @@ CREATE TABLE `game` (
   `player_name` varchar(255) DEFAULT NULL,
   `current_funds` int(11) DEFAULT 10000,
   `current_airport` varchar(55) DEFAULT NULL,
-  `current_day` int(2) DEFAULT 1,
+  `time_left` int(11) DEFAULT 360,
   PRIMARY KEY (`player_id`),
   KEY `game_airport_ident_fk` (`current_airport`),
   CONSTRAINT `game_airport_ident_fk` FOREIGN KEY (`current_airport`) REFERENCES `airport` (`ident`)
