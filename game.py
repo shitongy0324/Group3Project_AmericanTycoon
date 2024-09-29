@@ -6,12 +6,12 @@ GAME_TARGET = 1_000_000
 
 player_name = title.get_player_name()
 
+# Ask the players if they want to read the introduction or not
+    # Write a display_introduction function
+
 # Get time_left of the player from the database, if time_left <= 0 => Game Over! => Back to title?
 
 # Get current_funds of the player from the database, if current_funds > GAME_TARGET => Congratulations! => Thank you for playing?
-
-# Ask the players if they want to read the introduction or not
-    # Write a display_introduction function
 
 # Get the information of the player from database and display it.
 
