@@ -11,7 +11,7 @@ connection = mysql.connector.connect(
     )
 
 def get_random_airport():
-    sql = 'select ident from airport'
+    sql = 'select ident from airport;'
     cursor = connection.cursor()
     cursor.execute(sql)
     response = cursor.fetchall()
