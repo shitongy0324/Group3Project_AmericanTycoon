@@ -35,3 +35,10 @@ def get_existing_names():
         existing_names.append(item[0])
 
     return existing_names
+
+def get_coordinate(ident):
+    sql = f"select latitude_deg, longitude_deg from airport where ident='{ident}';"
+    cursor = connection.cursor()
+    cursor.execute(sql)
+    coordinate = cursor.fetchall()[0]
+    return coordinate
