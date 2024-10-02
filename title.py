@@ -63,7 +63,7 @@ def get_saved_name():
 def read_intro():
     prompt = f"Do you want to read the introduction?(y/n)"
     user_input = input(prompt)
-    while user_input not in ["y", "n"]:
+    while user_input.lower() not in ["y", "n"]:
         print("Invalid input. Please try again.")
         user_input = input(prompt)
 
