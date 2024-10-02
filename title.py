@@ -77,7 +77,7 @@ def read_intro():
         In the beginning of your journey, you will start at a random place with 10,000 dollars as your initial capital.
         After that, you can freely buy or sell goods from local stores before the time limit.
         You can also choose to move up to 15 different places in the U.S.
-        Be aware that traveling takes time which depends on the distance between your current location and the destination.
+        Be aware that travelling takes time which depends on the distance between your current location and the destination.
         Good luck!
         ------------------------------------------------------------------------------------------------------------------------
         """
