@@ -1,4 +1,4 @@
-# Display the title and get player name before the game begins
+# Display the title and other functions before the game starts
 
 import time
 import dbinteract
