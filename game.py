@@ -4,19 +4,18 @@ import title
 
 GAME_TARGET = 1_000_000
 
-player_name = title.get_player_name()
+player_name = title.get_player_name() # Display the title and get the player's name
 
-# Ask the players if they want to read the introduction or not
-    # Write a display_introduction function
+title.read_intro()  # Ask the players if they want to read the introduction or not
 
-# "Every time" before displaying the information, check the following conditions first
+# "Every time" before displaying the player's information, check the following conditions first
     # Get time_left of the player from the database, if time_left <= 0 => Game Over! => Back to title?
 
     # Get current_funds of the player from the database, if current_funds > GAME_TARGET => Congratulations! => Thank you for playing?
 
 # Get the information of the player from database and display it.
 
-# Ask the player for command
+# Ask the player for command - Command List
  # 1. Visit local store
     # - 1. Check the goods list of the local store
         # - 1. Buy something => Update the inventory and current_money
