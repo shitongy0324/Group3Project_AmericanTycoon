@@ -75,7 +75,8 @@ def read_intro():
         You are an ambitious green hand who is ready to become the richest tycoon in the U.S.
         The first step of your commercial legend is to make more than 1,000,000 dollars during the next 15 days(360 hours).
         In the beginning of your journey, you will start at a random place with 10,000 dollars as your initial capital.
-        After that, you can freely buy or sell goods from local stores, and you can also choose to move up to 15 different places in the U.S.
+        After that, you can freely buy or sell goods from local stores before the time limit.
+        You can also choose to move up to 15 different places in the U.S.
         Be aware that traveling takes time which depends on the distance between your current location and the destination.
         Good luck!
         ------------------------------------------------------------------------------------------------------------------------
