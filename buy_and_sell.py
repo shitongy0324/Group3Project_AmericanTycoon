@@ -56,7 +56,7 @@ def buy_goods(player_id):
         else:
             print("Insufficient stock or goods does not exist.")
     except Exception as e:
-        return
+        return False
 
 
 def sell_goods(player_id):
@@ -108,5 +108,5 @@ def sell_goods(player_id):
         else:
             print("Insufficient inventory to sell.")
     except Exception as e:
-        return
+        return False
 
